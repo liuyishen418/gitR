@@ -29,6 +29,10 @@ git remote rename origin upstream
 
 git remote add origin xxxx
 
+git branch -d branchName
+
+git push origin –delete branchName
+
 ### Scenarios
 
 #### scenario 0: start a new project
@@ -119,6 +123,16 @@ git remote add origin xxxx
     files, and unstage them;
   - git reset –soft HEAD^ \# go back to previous commit, keep new
     changed files, and keep them \# staged;
+
+#### scenario 8: collabrate on a single repo
+
+  - git pull origin master (make sure local master is up to date);
+  - git checkout -b newFeature (create a new branch to work on the
+    changes);
+  - git push origin newFeature (push the new branch to remote);
+  - make a pull request on Github from newFeature to master;
+  - go back and forth to make newFeature suitable to merge;
+  - when done, merge newFeature to master on Github or local PC;
 
 ### Github tips:
 
