@@ -1,1 +1,1 @@
-# gitR
+In this repo, I made some notes after reading through [Happy Git and Github for the useR](https://happygitwithr.com/). The summary can be found in **learnGit.md**.
