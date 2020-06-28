@@ -1,13 +1,6 @@
 ---
 title: "Git and Github"
-output: 
-  html_document: 
-    keep_md: yes
-    toc: yes
-    toc_float:
-      toc_collapsed: true
-    toc_depth: 6
-    number_sections: false
+output: github_document
 ---
 
 ### Common git commands
